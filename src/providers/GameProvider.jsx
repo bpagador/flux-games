@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 import { GameContext } from '../hooks/gameContext';
-import { initialState } from '../components/reducers/gameReducer';
+import reducer, { initialState } from '../components/reducers/gameReducer';
 
 const GameProvider = ({ children }) => {
 
