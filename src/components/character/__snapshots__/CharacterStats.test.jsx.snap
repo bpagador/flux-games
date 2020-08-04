@@ -6,9 +6,9 @@ exports[`CharacterStats component renders character with stats 1`] = `
     image="http://test.jpeg"
   />
   <Stats
+    cheer={25}
     food={25}
     gov={-50}
-    movement={25}
     total={25}
     water={25}
   />

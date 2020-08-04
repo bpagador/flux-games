@@ -12,6 +12,11 @@ export const useDispatch = () => {
   return dispatch;
 };
 
+export const useCharacter = () => {
+  const { character } = useState();
+  return character;
+};
+
 export const useFam = () => {
   const { fam } = useState();
   return fam;

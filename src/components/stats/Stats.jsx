@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Stats = ({ food, water, movement, gov, total }) => (
+const Stats = ({ food, water, cheer, gov, total }) => (
   <dl>
     <dt>Food</dt>
     <dd>{food}</dd>
@@ -9,10 +9,10 @@ const Stats = ({ food, water, movement, gov, total }) => (
     <dt>Water</dt>
     <dd>{water}</dd>
 
-    <dt>Movement</dt>
-    <dd>{movement}</dd>
+    <dt>Cheer</dt>
+    <dd>{cheer}</dd>
 
-    <dt>Capitalism</dt>
+    <dt>Grasshopper Attack</dt>
     <dd>{gov}</dd>
 
     <dt>Overall Wellness</dt>
@@ -25,7 +25,7 @@ const Stats = ({ food, water, movement, gov, total }) => (
 Stats.propTypes = {
   food: PropTypes.number.isRequired,
   water: PropTypes.number.isRequired,
-  movement: PropTypes.number.isRequired,
+  cheer: PropTypes.number.isRequired,
   gov: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired
 };

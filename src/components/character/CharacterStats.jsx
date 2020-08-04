@@ -11,7 +11,7 @@ const CharacterStats = ({ character }) => (
     <Stats
       food={character.food}
       water={character.water}
-      movement={character.movement}
+      cheer={character.cheer}
       gov={character.gov}
       total={character.total}
     />
@@ -23,7 +23,7 @@ CharacterStats.propTypes = {
     image: PropTypes.string.isRequired,
     food: PropTypes.number.isRequired,
     water: PropTypes.number.isRequired,
-    movement: PropTypes.number.isRequired,
+    cheer: PropTypes.number.isRequired,
     gov: PropTypes.number.isRequired,
     total: PropTypes.number.isRequired
   })

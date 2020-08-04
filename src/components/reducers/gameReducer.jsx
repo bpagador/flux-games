@@ -1,4 +1,20 @@
 export const initialState = {
+  character: {
+    image: 'https://vignette.wikia.nocookie.net/disney-fan-fiction/images/7/74/Francisbugslife.png/revision/latest/scale-to-width-down/340?cb=20130813222020',
+    food: 10,
+    water: 15,
+    cheer: 25,
+    gov: 0,
+    total: 50
+  },
+  fam: {
+    image: 'https://vignette.wikia.nocookie.net/pixar/images/2/2a/Dot.png/revision/latest?cb=20110416122815',
+    food: 10,
+    water: 15,
+    cheer: 25,
+    gov: 0,
+    total: 50
+  }
 
 };
 

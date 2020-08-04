@@ -9,7 +9,7 @@ describe('CharacterStats component', () => {
       image: 'http://test.jpeg',
       food: 25,
       water: 25,
-      movement: 25,
+      cheer: 25,
       gov: -50,
       total: 25
     };
