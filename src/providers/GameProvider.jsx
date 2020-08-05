@@ -2,6 +2,7 @@ import React, { useReducer } from 'react';
 import { GameContext } from '../hooks/gameContext';
 import reducer, { initialState } from '../components/reducers/gameReducer';
 
+
 const GameProvider = ({ children }) => {
 
   const [state, dispatch] = useReducer(reducer, initialState);

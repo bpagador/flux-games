@@ -14,12 +14,23 @@ export const initialState = {
     cheer: 25,
     gov: 0,
     total: 50
+  },
+  grasshopper: {
+    attack: 50
   }
 
 };
 
 export default function reducer(state, action) {
   switch(action.type) {
+    case 'SHARE_MEAL':
+      return { ...state, 
+        fam: { 
+          ...state.fam, 
+          food: state.fam.food + state.character.food, 
+          water: state.fam.water + state.character.water } };
+    case 'SET_FAM':
+      return { ...state, fam: action.payload };
     default:
       return state;
   }
