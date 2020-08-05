@@ -86,6 +86,10 @@ export default function reducer(state, action) {
           water: state.character.water + state.give.water,
           total: state.character.total + state.grasshopper.attack
         } };
+    case 'SET_NEW_FAM':
+      return { ...state, fam: action.payload };
+    case 'SET_NEW_CHARACTER':
+      return { ...state, character: action.payload };
     default:
       return state;
   }
