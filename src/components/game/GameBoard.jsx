@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCharacter, useFam } from '../../hooks/gameContext';
+import { useCharacter, useFam, useDispatch } from '../../hooks/gameContext';
 import CharacterStats from '../character/CharacterStats';
 import styles from './GameBoard.css';
 import Controls from '../controls/Controls';

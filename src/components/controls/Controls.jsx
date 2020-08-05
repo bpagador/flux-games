@@ -8,9 +8,9 @@ const Controls = () => {
   return (
     <section className={styles.Controls}>
       <button onClick={() => dispatch({ type: 'SHARE_MEAL' })}>Share a meal</button>
-      <button>Throw a bug party</button>
-      <button>Hark! Grasshopper attack!</button>
-      <button>Bug fam to the rescue!</button>
+      <button onClick={() => dispatch({ type: 'THROW_PARTY' })}>Throw a bug party</button>
+      <button onClick={() => dispatch({ type: 'ATTACK' })}>Hark! Grasshopper attack!</button>
+      <button onClick={() => dispatch({ type: 'RESCUE' })}>Bug fam to the rescue!</button>
     </section>
   );
 };
