@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterStats component renders character with stats 1`] = `
+<section>
+  <Character
+    image="http://test.jpeg"
+  />
+  <Stats
+    cheer={25}
+    food={25}
+    gov={-50}
+    total={25}
+    water={25}
+  />
+</section>
+`;
